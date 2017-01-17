@@ -1,0 +1,62 @@
+{
+  "name": "merusuto",
+  "version": "1.0.0",
+  "description": "Merusuto Website v2",
+  "repository": "github:bbtfr/merusuto",
+  "main": "index.html",
+  "authors": [
+    "Theo Li <bbtfrr@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Merusuto"
+  ],
+  "homepage": "https://github.com/bbtfr/MerusutoChristina",
+  "scripts": {
+    "server": "$(npm bin)/webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bourbon": "^4.2.6",
+    "classnames": "^2.2.1",
+    "es6-promise": "^3.0.2",
+    "history": "^2.0.0",
+    "isomorphic-fetch": "^2.2.0",
+    "lodash": "^4.5.0",
+    "ratchet": "git@github.com:twbs/ratchet.git",
+    "react": "^0.14.7",
+    "react-click-outside": "^2.1.0",
+    "react-dom": "^0.14.0",
+    "react-redux": "^4.0.6",
+    "react-router": "^2.0.0",
+    "redux": "^3.0.5",
+    "redux-logger": "^2.0.4",
+    "redux-thunk": "^1.0.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.3.26",
+    "babel-eslint": "^5.0.0",
+    "babel-loader": "^6.2.0",
+    "babel-plugin-transform-class-properties": "^6.3.13",
+    "babel-plugin-transform-decorators": "^6.3.13",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-export-extensions": "^6.5.0",
+    "babel-plugin-transform-function-bind": "^6.3.13",
+    "babel-plugin-transform-object-rest-spread": "^6.3.13",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "css-loader": "^0.23.1",
+    "eslint": "^2.2.0",
+    "eslint-config-rackt": "^1.1.0",
+    "eslint-plugin-react": "^4.0.0",
+    "file-loader": "^0.8.4",
+    "node-sass": "^3.3.3",
+    "resolve-url-loader": "^1.4.3",
+    "sass-loader": "^3.1.2",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0",
+    "webpack-livereload-plugin": "^0.5.3"
+  }
+}
